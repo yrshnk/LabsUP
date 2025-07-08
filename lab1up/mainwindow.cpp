@@ -4,11 +4,6 @@
 #include <QTextStream>
 #include <QFile>
 #include <QtMath>
-#include <QDialog>
-#include <QVBoxLayout>
-#include <QLabel>
-#include <QCheckBox>
-#include <QPushButton>
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent), ui(new Ui::MainWindow) {
@@ -27,7 +22,6 @@ MainWindow::MainWindow(QWidget *parent)
 
     ui->comboBox->addItems(conversionList);
     connect(ui->pushButton, &QPushButton::clicked, this, &MainWindow::convert);
-    connect(ui->actionSettings, &QAction::triggered, this, &MainWindow::showSettingsDialog);
     connect(ui->actionAbout, &QAction::triggered, this, &MainWindow::showAboutDialog);
 }
 
@@ -38,8 +32,8 @@ MainWindow::~MainWindow() {
 void MainWindow::convert() {
     bool ok = false;
     qreal input = ui->inputEdit->toPlainText().toDouble(&ok);
-    if (!ok || input < 0) {
-        QMessageBox::warning(this, "Input Error", "Please enter a positive number.");
+    if (!ok) {
+        QMessageBox::warning(this, "Input Error", "Please enter a valid number.");
         return;
     }
 
@@ -84,28 +78,6 @@ void MainWindow::logResult(const QString &entry) {
         QTextStream out(&file);
         out << entry << "\n";
     }
-}
-
-void MainWindow::showSettingsDialog() {
-    QDialog dialog(this);
-    dialog.setWindowTitle("Project Settings");
-    QVBoxLayout *layout = new QVBoxLayout(&dialog);
-
-    QLabel *label = new QLabel("Logging settings:", &dialog);
-    QCheckBox *check = new QCheckBox("Save results to log.txt", &dialog);
-    check->setChecked(ui->checkBox->isChecked());
-
-    layout->addWidget(label);
-    layout->addWidget(check);
-
-    QPushButton *okButton = new QPushButton("OK", &dialog);
-    layout->addWidget(okButton);
-    connect(okButton, &QPushButton::clicked, [&]() {
-        ui->checkBox->setChecked(check->isChecked());
-        dialog.accept();
-    });
-
-    dialog.exec();
 }
 
 void MainWindow::showAboutDialog() {

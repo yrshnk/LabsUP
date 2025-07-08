@@ -1,3 +1,7 @@
 Radians -> Degrees: 1 => 57.295780
 Radians -> Degrees: 1 => 57.295780
 Radians -> Degrees: 1 => 57.295780
+Radians -> Degrees: 1 => 57.295780
+Degrees -> Radians: 3 => 0.052360
+Seconds -> Radians: 5 => 0.000024
+Radians -> Degrees: -1 => -57.295780

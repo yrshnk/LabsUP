@@ -92,17 +92,11 @@
     <property name="title">
      <string>Options</string>
     </property>
-    <addaction name="actionSettings"/>
     <addaction name="actionAbout"/>
    </widget>
    <addaction name="menuOptions"/>
   </widget>
   <widget class="QStatusBar" name="statusbar"/>
-  <action name="actionSettings">
-   <property name="text">
-    <string>Settings</string>
-   </property>
-  </action>
   <action name="actionAbout">
    <property name="text">
     <string>About</string>

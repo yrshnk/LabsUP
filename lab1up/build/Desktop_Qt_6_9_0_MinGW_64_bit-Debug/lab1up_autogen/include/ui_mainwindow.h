@@ -30,7 +30,6 @@ QT_BEGIN_NAMESPACE
 class Ui_MainWindow
 {
 public:
-    QAction *actionSettings;
     QAction *actionAbout;
     QWidget *centralwidget;
     QVBoxLayout *verticalLayout;
@@ -52,8 +51,6 @@ public:
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
         MainWindow->resize(400, 250);
-        actionSettings = new QAction(MainWindow);
-        actionSettings->setObjectName("actionSettings");
         actionAbout = new QAction(MainWindow);
         actionAbout->setObjectName("actionAbout");
         centralwidget = new QWidget(MainWindow);
@@ -122,7 +119,6 @@ public:
         MainWindow->setStatusBar(statusbar);
 
         menubar->addAction(menuOptions->menuAction());
-        menuOptions->addAction(actionSettings);
         menuOptions->addAction(actionAbout);
 
         retranslateUi(MainWindow);
@@ -133,7 +129,6 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "Angle Units Converter", nullptr));
-        actionSettings->setText(QCoreApplication::translate("MainWindow", "Settings", nullptr));
         actionAbout->setText(QCoreApplication::translate("MainWindow", "About", nullptr));
         inputLabel->setText(QCoreApplication::translate("MainWindow", "Enter value:", nullptr));
         comboLabel->setText(QCoreApplication::translate("MainWindow", "Select conversion:", nullptr));

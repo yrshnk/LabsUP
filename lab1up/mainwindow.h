@@ -17,7 +17,6 @@ public:
 
 private slots:
     void convert();
-    void showSettingsDialog();
     void showAboutDialog();
 
 private:
