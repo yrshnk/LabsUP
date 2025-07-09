@@ -1,0 +1,4 @@
+Bentley 3 Litre;100;350000.00;D:/=UseR=/Downloads/1924_Bentley_3-litre_Sports_Tourer_by_Park_Ward.jpg
+Packard Twin Six;112;400000.00;D:/=UseR=/Downloads/1921-packard-twin-six.png
+Duesenberg Model A;95;450000.00;D:/=UseR=/Downloads/1923_Duesenberg_Model_A_Rubay_Touring_p1.png
+Rolls-Royce Silver Ghost;105;850000.00;D:/=UseR=/Downloads/Снимок экрана 2025-07-08 215134.png
