@@ -186,7 +186,7 @@ public:
         removeButton->setText(QCoreApplication::translate("MainWindow", "Remove Car", nullptr));
         updateButton->setText(QCoreApplication::translate("MainWindow", "Edit Car", nullptr));
         addPhotoButton->setText(QCoreApplication::translate("MainWindow", "Add Photo", nullptr));
-        checkArraySizeButton->setText(QCoreApplication::translate("MainWindow", "Check Array Size", nullptr));
+        checkArraySizeButton->setText(QCoreApplication::translate("MainWindow", "Check Size", nullptr));
     } // retranslateUi
 
 };

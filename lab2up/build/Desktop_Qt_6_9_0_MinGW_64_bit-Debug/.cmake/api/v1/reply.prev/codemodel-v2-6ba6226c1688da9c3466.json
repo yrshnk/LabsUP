@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-946bfbe32b1e6ed3ec56.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lab2up",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lab2up::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab2up-Debug-fd2c476e939a3325e886.json",
+					"name" : "lab2up",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab2up_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab2up_autogen-Debug-4996788919b973313924.json",
+					"name" : "lab2up_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab2up_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab2up_autogen_timestamp_deps-Debug-fa3f5c5a1b66ea5fa5bd.json",
+					"name" : "lab2up_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/=UseR=/Documents/lab2up/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug",
+		"source" : "D:/=UseR=/Documents/lab2up"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

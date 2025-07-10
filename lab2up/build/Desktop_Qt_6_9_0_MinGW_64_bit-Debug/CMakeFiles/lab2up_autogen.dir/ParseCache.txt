@@ -379,6 +379,6 @@ D:/=UseR=/Documents/lab2up/mainwindow.h
  mdp:D:/=UseR=/Documents/lab2up/car.h
  mdp:D:/=UseR=/Documents/lab2up/mainwindow.h
 D:/=UseR=/Documents/lab2up/car.cpp
-D:/=UseR=/Documents/lab2up/main.cpp
 D:/=UseR=/Documents/lab2up/mainwindow.cpp
  uic:ui_mainwindow.h
+D:/=UseR=/Documents/lab2up/main.cpp

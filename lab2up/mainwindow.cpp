@@ -266,6 +266,8 @@ void MainWindow::showContextMenu(const QPoint &pos)
 
     QMenu menu(this);
     QAction *removeAction = menu.addAction("Remove Car");
+    QAction *aboutAction = menu.addAction("About");
+
     QAction *selectedAction = menu.exec(ui->tableWidget->viewport()->mapToGlobal(pos));
 
     if (selectedAction == removeAction) {
@@ -276,8 +278,14 @@ void MainWindow::showContextMenu(const QPoint &pos)
             carList.removeAt(realIndex);
             applySearchFilter();
         }
+    } else if (selectedAction == aboutAction) {
+        QMessageBox::about(this, "About Application",
+                           "This application manages antique cars.\n"
+                           "You can add, delete, search, and sort cars.\n"
+                           "Created using Qt.");
     }
 }
+
 
 void MainWindow::on_sortModelButton_clicked()
 {

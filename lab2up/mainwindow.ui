@@ -147,7 +147,7 @@
       <item>
        <widget class="QPushButton" name="checkArraySizeButton">
         <property name="text">
-         <string>Check Array Size</string>
+         <string>Check Size</string>
         </property>
        </widget>
       </item>

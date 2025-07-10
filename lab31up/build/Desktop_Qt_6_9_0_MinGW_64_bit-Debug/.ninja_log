@@ -1,0 +1,22 @@
+# ninja log v6
+908	4304	7738297319759589	CMakeFiles/lab31up.dir/mainwindow.cpp.obj	4c5078270c311aa0
+36	2078	7738355135316414	lab31up_tests_autogen/timestamp	c8db6a3bb524572e
+36	895	7738297318702457	lab31up_autogen/timestamp	9b076f6d3ddea12d
+905	3496	7738297319729664	CMakeFiles/lab31up.dir/main.cpp.obj	4b6360c54d3fa982
+36	895	7738297318702457	lab31up_autogen/mocs_compilation.cpp	9b076f6d3ddea12d
+4305	4756	7738297353723199	lab31up.exe	1f7f2c18ec083ddb
+36	895	7738297318702457	D:/=UseR=/Documents/lab31up/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/lab31up_autogen/mocs_compilation.cpp	9b076f6d3ddea12d
+36	895	7738297318702457	D:/=UseR=/Documents/lab31up/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/lab31up_autogen/timestamp	9b076f6d3ddea12d
+902	3505	7738297319699752	CMakeFiles/lab31up.dir/lab31up_autogen/mocs_compilation.cpp.obj	ce157fe6a4f20a7a
+20	1269	7738563449234215	build.ninja	78327bf7494bad6b
+36	2078	7738355135316414	lab31up_tests_autogen/mocs_compilation.cpp	c8db6a3bb524572e
+36	2078	7738355135316414	D:/=UseR=/Documents/lab31up/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/lab31up_tests_autogen/timestamp	c8db6a3bb524572e
+36	2078	7738355135316414	D:/=UseR=/Documents/lab31up/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/lab31up_tests_autogen/mocs_compilation.cpp	c8db6a3bb524572e
+2079	5729	7738355136862285	CMakeFiles/lab31up_tests.dir/lab31up_tests_autogen/mocs_compilation.cpp.obj	e5373313b80dc113
+2084	6910	7738355136912144	CMakeFiles/lab31up_tests.dir/mainwindow.cpp.obj	27ff973c39c901f
+2089	9335	7738355136962002	CMakeFiles/lab31up_tests.dir/tests.cpp.obj	70ff14dea01799b9
+9335	9640	7738355209418529	lab31up_tests.exe	a30dc7c040216693
+75	466	7738607061303691	lab31up_tests_autogen/timestamp	c8db6a3bb524572e
+75	466	7738607061303691	lab31up_tests_autogen/mocs_compilation.cpp	c8db6a3bb524572e
+75	466	7738607061303691	D:/=UseR=/Documents/lab31up/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/lab31up_tests_autogen/timestamp	c8db6a3bb524572e
+75	466	7738607061303691	D:/=UseR=/Documents/lab31up/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/lab31up_tests_autogen/mocs_compilation.cpp	c8db6a3bb524572e

@@ -25,8 +25,6 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         car.h
         car.cpp
-
-
     )
 # Define target properties for Android with Qt 6 as:
 #    set_property(TARGET lab2up APPEND PROPERTY QT_ANDROID_PACKAGE_SOURCE_DIR

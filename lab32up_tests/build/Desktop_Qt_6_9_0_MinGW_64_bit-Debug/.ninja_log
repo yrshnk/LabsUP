@@ -1,0 +1,15 @@
+# ninja log v6
+89	4262	7738595476666611	lab32up_tests_autogen/timestamp	e5f4a8c04d8e54f5
+89	4262	7738595476666611	lab32up_tests_autogen/mocs_compilation.cpp	e5f4a8c04d8e54f5
+89	4262	7738595476666611	D:/=UseR=/Documents/lab32up_tests/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/lab32up_tests_autogen/timestamp	e5f4a8c04d8e54f5
+89	4262	7738595476666611	D:/=UseR=/Documents/lab32up_tests/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/lab32up_tests_autogen/mocs_compilation.cpp	e5f4a8c04d8e54f5
+4288	6894	7738595479249687	CMakeFiles/lab32up_tests.dir/car.cpp.obj	6133f4c7c5168662
+4278	8459	7738595479139980	CMakeFiles/lab32up_tests.dir/lab32up_tests_autogen/mocs_compilation.cpp.obj	222f2932813170e6
+100	2362	7738614489605080	lab32up_tests_autogen/timestamp	e5f4a8c04d8e54f5
+100	2362	7738614489605080	lab32up_tests_autogen/mocs_compilation.cpp	e5f4a8c04d8e54f5
+100	2362	7738614489605080	D:/=UseR=/Documents/lab32up_tests/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/lab32up_tests_autogen/timestamp	e5f4a8c04d8e54f5
+100	2362	7738614489605080	D:/=UseR=/Documents/lab32up_tests/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug/lab32up_tests_autogen/mocs_compilation.cpp	e5f4a8c04d8e54f5
+2367	5002	7738614492295073	CMakeFiles/lab32up_tests.dir/lab32up_tests_autogen/mocs_compilation.cpp.obj	222f2932813170e6
+2375	5766	7738614492384825	CMakeFiles/lab32up_tests.dir/mainwindow.cpp.obj	4436f5a7adc4e9a0
+2381	9760	7738614492444691	CMakeFiles/lab32up_tests.dir/tests.cpp.obj	2eb7ecd44c89891d
+9760	10403	7738614566227672	bin/lab32up_tests.exe	48805473d7498cc2

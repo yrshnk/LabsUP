@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "lab32up_tests",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "lab32up_tests::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab32up_tests-Debug-74db524378a586bddd77.json",
+					"name" : "lab32up_tests",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab32up_tests_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab32up_tests_autogen-Debug-64cf3b6d22b92175dc9b.json",
+					"name" : "lab32up_tests_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lab32up_tests_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lab32up_tests_autogen_timestamp_deps-Debug-8f3bab4714b96ad56211.json",
+					"name" : "lab32up_tests_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/=UseR=/Documents/lab32up_tests/build/Desktop_Qt_6_9_0_MinGW_64_bit-Debug",
+		"source" : "D:/=UseR=/Documents/lab32up_tests"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
